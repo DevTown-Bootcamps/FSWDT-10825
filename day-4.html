@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            background-color: red;
+            color: white;
+            padding: 10px;
+        }
+        .inline{
+          background-color: blue;
+          padding: 10px;
+          margin: 10px;
+          display: inline;
+        }
+
+        .block{
+          background-color: blue;
+          padding: 10px;
+          margin: 10px;
+          display: inline-block;
+        }
+
+        .flex{
+             background-color: blue;
+          padding: 10px;
+          margin: 10px;
+          display: flex;
+          flex-direction: column-reverse;
+        }
+
+        .grid{
+            background-color: blue;
+          padding: 10px;
+          margin: 10px;
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <h4>Inline <span>block</span></h4>
+
+        <p class="inline">
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+        </p>
+
+        <p class="inline">
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+        </p>
+    </div>
+
+    <div >
+        <h4>block</h4>
+
+        <p class="block">
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+        </p>
+
+        <p class="block">
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+            <span>Text for sample</span>
+        </p>
+    </div>
+
+    <div >
+        <h4>flex</h4>
+
+        <p class="flex">
+            <span>Text for sample 1</span>
+            <span>Text for sample 2</span>
+            <span>Text for sample 3</span>
+            <span>Text for sample 4</span>
+            <span>Text for sample 5</span>
+        </p>
+
+    </div>
+
+
+    <div >
+        <h4>grid</h4>
+
+        <p class="grid">
+            <span>Text for sample 1</span>
+            <span>Text for sample 2</span>
+            <span>Text for sample 3</span>
+            <span>Text for sample 4</span>
+            <span>Text for sample 5</span>
+            <span>Text for sample 4</span>
+            <span>Text for sample 5</span>
+            <span>Text for sample 4</span>
+            <span>Text for sample 5</span>
+        </p>
+
+    </div>
+</body>
+</html>
