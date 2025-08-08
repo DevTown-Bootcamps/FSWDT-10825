@@ -52,6 +52,53 @@
         .scale:hover{
             transform: scale(1.5);
         }
+
+        .fade{
+            background-color: purple;
+            padding: 20px;
+            color: white;
+            opacity: 1;
+            color: white;
+            margin: 20px;
+            transition: opacity 2s;
+        }
+        .fade:hover{
+            opacity: 0.5;
+        }
+        .rotate{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            margin: 30px;
+            transition: transform 2s;
+        }
+        .rotate:hover{
+            transform: rotate(60deg);
+        }
+        .radius{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            margin: 30px;
+            border-radius: 10px;
+            transition: border-radius 1s;
+
+        }
+        .radius:hover{
+            border-radius: 30px;
+        }
+        .combine{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            margin-top: 50x;
+            transition: all 1s;
+        }
+        .combine:hover{
+            background-color: red;
+            width: 150px;
+            transform: rotate(45deg);
+        }
     </style>
 </head>
 <body>
@@ -65,5 +112,13 @@
      <div class="box"></div>
 
      <div class="scale"></div>
+
+     <div class="fade">Opacity</div>
+
+     <div class="rotate"></div>
+
+     <div class="radius"></div>
+
+     <div class="combine"></div>
 </body>
 </html>
